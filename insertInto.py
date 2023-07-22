@@ -18,4 +18,6 @@ insert_sql_command = """
                      """
 
 myCursor.execute(insert_sql_command)
+
+# it have to use to insert data in database
 myDb.commit()
